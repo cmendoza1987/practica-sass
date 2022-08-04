@@ -1,0 +1,26 @@
+body{
+    background-image: url(../img/men.jpg);
+    header{
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+
+        nav{
+            background-color: rgba(0, 0, 0, 0.016);
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    border: 1px;
+                    color: aliceblue;
+                    text-shadow: 2px;
+                    font-size: 2rem;
+
+                }
+            }
+        }
+       
+    }
+    
+}
