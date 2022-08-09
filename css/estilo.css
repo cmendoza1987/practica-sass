@@ -1,3 +1,17 @@
+.facebook {
+  color: blue; }
+
+.ig {
+  color: red; }
+
+.pUno, .pDos {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold; }
+
+.pDos {
+  font-size: 30px;
+  color: #ff00a6; }
+
 body {
   background-image: url(../img/men.jpg); }
   body header {
@@ -15,3 +29,11 @@ body {
           color: aliceblue;
           text-shadow: 2px;
           font-size: 2rem; }
+          body header nav li a:hover {
+            background-color: #9dff00; }
+  body div {
+    color: bisque;
+    text-align: center; }
+  body footer {
+    color: bisque;
+    font-size: 2rem; }

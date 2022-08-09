@@ -1,0 +1,22 @@
+$color-primario: #9dff00;
+
+
+$mapRedes:(facebook:blue, ig:red,);
+
+@each $red, $color in $mapRedes {
+    .#{$red} {
+        color: $color;
+    }
+    
+}
+    .pUno{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+       
+    }
+
+    .pDos{
+        @extend .pUno;
+        font-size: 30px;
+        color: rgb(255, 0, 166);
+    }

@@ -1,4 +1,11 @@
+@import "variable"; 
+
+
+
+
+
 body{
+    
     background-image: url(../img/men.jpg);
     header{
         color: aliceblue;
@@ -17,10 +24,25 @@ body{
                     text-shadow: 2px;
                     font-size: 2rem;
 
+
+                    &:hover{
+                        background-color: $color-primario;
+
+                    }
+
                 }
             }
         }
        
+   
     }
-    
+    div{
+        color: bisque;
+        text-align: center;
+       
+    }
+    footer{ 
+        color: bisque;
+        font-size: 2rem;
+    }
 }
